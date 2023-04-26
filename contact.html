@@ -30,12 +30,13 @@
         <h1>Contato</h1>
 
         <form>
-            <p>Nome:<input type="text" placeholder="Digite seu nome"></p>
-            <p>Telefone:<input type="tel" placeholder="Digite seu telefone"></p>
-            <p>Email:<input type="email" placeholder="Digite seu email"></p>
+            <p>Nome:<input type="text" placeholder="Digite seu nome" id="user" required></p>
+            <p>Telefone:<input type="tel" placeholder="Digite seu telefone" id="tel" required></p>
+            <p>Email:<input type="email" placeholder="Digite seu email" id="email" required></p>
 
+            <!-- Submit button -->
             <div class="centering">
-                <button type="button" onclick="" class="">Enviar</button> 
+                <input type="submit" value="Enviar" id="login" onclick="validate()">
             </div>
             
         </form>

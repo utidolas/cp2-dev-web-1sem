@@ -63,11 +63,11 @@ p{
     margin: 0 auto;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 5%;
     background: linear-gradient(45deg, var(--color1), var(--color2));
-    margin: 0 5px;
+    margin: 2% 20px;
     cursor: pointer;
-    border: 1px solid saddlebrown;
+    border: 1px solid #ffffffca;
 }
 
 .btn-1{
@@ -90,3 +90,12 @@ p{
     --color2: #edd388;
 }
 
+/*Login*/
+#login{
+    width: 80px;
+    height: 30px;
+    background-color: #ffbb00;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
