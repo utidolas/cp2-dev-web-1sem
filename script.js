@@ -1,5 +1,5 @@
 function welcome_alert(){
-    alert("Seja Bem Vindo")
+
     alert("Vamos conhecer sobre vinho")
 }
 
