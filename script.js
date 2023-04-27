@@ -1,6 +1,10 @@
 function welcome_alert(){
+<<<<<<< HEAD
+    alert("Seja Bem Vindo")
+=======
 
     alert("Vamos conhecer sobre vinho")
+>>>>>>> 5a4bcb3e3b981cda3b1e0de3b2f88e56fac420aa
 }
 
 
@@ -21,3 +25,4 @@ function validate(){
         window.open('menu.html')
     }
 }
+
