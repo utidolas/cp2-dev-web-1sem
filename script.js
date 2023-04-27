@@ -1,6 +1,5 @@
 function welcome_alert(){
     alert("Seja Bem Vindo")
-    alert("Vamos conhecer sobre vinho")
 }
 
 
@@ -21,3 +20,4 @@ function validate(){
         window.open('menu.html')
     }
 }
+

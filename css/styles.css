@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
 body{
     background: linear-gradient(45deg, #f5bb50, #edd388);
 }
@@ -22,18 +29,20 @@ body{
 }
 
 #menu ul li a{
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
 #menu ul li a:hover{
-    background-color: rgb(90, 169, 237);
-    color: rgb(255, 255, 255);
+    color: rgb(240, 240, 240);
     padding: 5px;
+    text-decoration: underline;
+    text-decoration-color: #979128;
+    text-decoration-thickness: 3px;
 }
 
-h1, h2{
+h1, h3{
     font-weight: bold;
     text-align: center;
 }
@@ -63,7 +72,7 @@ p{
     margin: 0 auto;
     width: 150px;
     height: 150px;
-    border-radius: 5%;
+    border-radius: 7%;
     background: linear-gradient(45deg, var(--color1), var(--color2));
     margin: 2% 20px;
     cursor: pointer;
