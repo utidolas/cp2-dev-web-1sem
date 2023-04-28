@@ -10,26 +10,28 @@
 
 </head>
 
-    <div class="container">
+<body>
 
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html">Index</a></li>
-                <li><a href="about.html">Sobre</a></li>
-                <li><a href="contact.html">Contato</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-            </ul>
-        </nav>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
 
+    <div class="container centeringQuiz">
         <h1>Quiz</h1>
-        <h3>Responda algumas perguntas:</h3>
+        <img src="./css/images/friendswine.png" alt="imagemquiz" class="imgQuiz">
+        <h3>Dê uma olhada nas suas respostas:</h3>
         
-        <script class="quizAnswers">
+        <script>
 
         alert("Vamos conhecer sobre vinho!")
 
-
-            // caixa de prompt com as perguntas:
+        /*
+        // caixa de prompt com as perguntas:
             let nome = prompt("Digite seu nome")
             let question1 = prompt("Você conhece bem de vinhos?")
             let question2 = prompt("Você tem um tipo favorito de vinho? (Tinto, Branco, Rosé, Verde, etc.)")
@@ -41,32 +43,36 @@
             let question8 = prompt("Conhece sobre a maneira de armazenamento correto dos vinhos?")
             let question9 = prompt("Quais informações julga importante na hora de escolher um vinho?")
             let question10 = prompt("Gostaria de saber mais sobre vinhos?")
-
+            */
+           
             // para aparecer as respostas (com quebra de linha):
-            document.write("O seu nome é: ", nome)
-            document.write("<br></br>")
-            document.write("Você conhece ", question1, " de vinhos.")
-            document.write("<br></br>")
-            document.write("Tem alguma uva que você prefere? ", question2)
-            document.write("<br></br>")
-            document.write("Sua vinheria preferida é: ", question3)
-            document.write("<br></br>")
-            document.write("O seu conhecimento sobre harmonização de vinhos é: ", question4)
-            document.write("<br></br>")
-            document.write("Seu país de preferência é: ", question5)
-            document.write("<br></br>")
-            document.write("O seu tipo de uva preferido é: ", question6)
-            document.write("<br></br>")
-            document.write("Seu conhecimento sobre temperatura em vinhos é: ", question7)
-            document.write("<br></br>")
-            document.write("Seu conhecimento sobre armazenamento de vinhos é: ", question8)
-            document.write("<br></br>")
-            document.write("Em sua opinião, ", question9, " são importantes na hora de escolher um vinho.")
-            document.write("<br></br>")
-            document.write("Sua escolha de saber mais sobre vinhos é: ", question10)
+            document.write(`<p class="quizAnswers">O seu nome é: ${nome}
+            <br></br>
+            Você conhece ${question1} de vinhos.
+            <br></br>
+            Tem alguma uva que você prefere? ${question2}
+            <br></br>
+            Sua vinheria preferida é: ${question3}
+            <br></br>
+            O seu conhecimento sobre harmonização de vinhos é: ${question4}
+            <br></br>
+            Seu país de preferência é: ${question5}
+            <br></br>
+            O seu tipo de uva preferido é: ${question6}
+            <br></br>
+            Seu conhecimento sobre temperatura em vinhos é: ${question7}
+            <br></br>
+            Seu conhecimento sobre armazenamento de vinhos é: ${question8}
+            <br></br>
+            Em sua opinião, ${question9} são importantes na hora de escolher um vinho.
+            <br></br>
+            Sua escolha de saber mais sobre vinhos é: ${question10}
+            </p>`)
 
+            
         </script>
-        
+
+
     </div>
 
 
