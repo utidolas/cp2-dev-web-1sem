@@ -12,7 +12,12 @@ body{
 
 .container{
    width: 100%;
+<<<<<<< HEAD
    height: 100vh;
+=======
+   height: auto; 
+   margin: auto;
+>>>>>>> 7917274712af532e80a67db1ec7744d483562a13
 }
 
 .container-quiz{
@@ -65,7 +70,7 @@ p{
 
 /*Footer*/
 .footer{
-    width: 100%;
+    width: 100vw;
     height: 100px;
     margin-top: 160px;
     background-color: transparent;
