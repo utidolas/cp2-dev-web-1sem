@@ -184,3 +184,10 @@ p{
     min-width: 30%;
     max-width: 510px;
 }
+
+.textoAbout{
+    width: 60%;
+    color: #3f3f3f;
+    text-align: justify;
+    margin-top: 40px;
+}
