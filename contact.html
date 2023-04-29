@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,25 +22,26 @@
             </ul>
         </nav>
 
-        <h1>Contato</h1>
-
-        <form>
-            <p>Nome:<input type="text" placeholder="Digite seu nome" id="user" required></p>
-            <p>Telefone:<input type="tel" placeholder="Digite seu telefone" id="tel" required></p>
-            <p>Email:<input type="email" placeholder="Digite seu email" id="email" required></p>
-
-            <!-- Submit button -->
-            <div class="centering">
-                <input type="submit" value="Enviar" id="login" onclick="validate()">
-            </div>
-            
-        </form>
+        <div class="container centeringQuiz">
+            <h1>Contato</h1>
+            <img src="./css/images/contact.png" alt="imgContato" class="imgContato">
+    
+            <form class="contactInfo">
+                <p>Nome:<br> <input class="inputText" type="text" placeholder="Digite seu nome" id="user" required></p>
+                <p>Telefone:<br><input class="inputText" type="tel" placeholder="Digite seu telefone" id="tel" required></p>
+                <p>Email:<br><input class="inputText" type="email" placeholder="Digite seu email" id="email" required></p>
+    
+                <!-- Submit button -->
+                    <input class="btnSend" type="submit" value="Enviar" onclick="validate()">
+                
+            </form>
+        </div>
 
     </div>
 
     <!-- Footer -->
     <footer class="footer">
-        @2023-todos os direitos reservados
+        @2023 - todos os direitos reservados
     </footer>
  <script src="script.js"></script>
 </body>
